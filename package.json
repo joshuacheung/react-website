@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "gh-pages": "^1.2.0",
-    "homepage": "https://joshuacheung.github.io/reactProject",
+    "homepage": "https://joshuacheung.github.io/my-app-reactProject",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-mdl": "^1.11.0",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
